@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi 5</title>
+</head>
+
+<body>
+    <style>
+        #root {
+            background-color: tomato;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            height: 100vh;
+        }
+
+        img.foto {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <!-- INI KONTEN -->
+    <div id="root">
+        <input type="text" placeholder="username" id="usernameInput" />
+        <input type="password" placeholder="password" id="passwordInput" />
+        <button onclick="onLogin()" id="loginButton">LOGIN</button>
+        <button onclick="onLogout()" id="logoutButton">LOGOUT</button>
+        <br />
+        <a href="#" onclick="onLogout()" id="daftar">Klik Disini Untuk Daftar!</a>
+        <br />
+        <h1 id="admin">SELAMAT DATANG ADMIN!!!</h1>
+        <h1 id="user">HARAP DAFTAR DULU!!!</h1>
+        <h1 id="ayah">SELAMAT DATANG AYAH!!!</h1>
+        <h1 id="ibu">SELAMAT DATANG IBU!!!</h1>
+        <h1 id="kakak">SELAMAT DATANG KAKAK!!!</h1>
+        <h1 id="adik">SELAMAT DATANG ADIK!!!</h1>
+        <img src="assets/images/admin.png" class="foto" alt="" id="fotoAdmin" />
+        <img src="assets/images/ayah.png" class="foto" alt="" id="fotoAyah" />
+        <img src="assets/images/adik.png" class="foto" alt="" id="fotoAdik" />
+        <img src="assets/images/ibu.png" class="foto" alt="" id="fotoIbu" />
+        <img src="assets/images/kakak.png" class="foto" alt="" id="fotoKakak" />       
+    </div>
+
+    <!-- INI SCRIPT  -->
+    <script src="script.js" type="application/javascript"></script>
+</body>
+
+</html>

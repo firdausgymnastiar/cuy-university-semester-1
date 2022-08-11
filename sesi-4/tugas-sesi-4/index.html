@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Sesi 4 Firdaus</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="semua">
+        <div class="navbarnya">
+            <!-- NAVBAR START -->
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/fotoku.png" alt="" width="30" height="24"
+                            class="d-inline-block align-text-top">
+                        TUGAS SESI 4 SAYA DI CUY UNIVERSITY
+                    </a>
+                </div>
+            </nav>
+            <!-- NAVBAR END -->
+        </div>
+
+        <div class="contentnya">
+            <!-- CONTENT START -->
+            <div class="container text-center">
+                <div class="row">
+                    <!-- RUANG KELUARGA 3 LAMPU START-->
+                    <div class="container-contentRk">
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rk1">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RK 1</h5>
+                                <p class="card-text">Ini lampu pertama</p>
+                                <div class="form-check form-switch ">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rk1"
+                                        onchange="saklarRk()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rk2">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RK 2</h5>
+                                <p class="card-text">Ini lampu kedua</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rk2"
+                                        onchange="saklarRk()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rk3">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RK 3</h5>
+                                <p class="card-text">Ini lampu ketiga</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rk3"
+                                        onchange="saklarRk()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cardb ">
+                            <h5 class="card-title">RUANG KELUARGA</h5>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="toggle-rk"
+                                    onchange="saklarRk()">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RUANG KELUARGA 3 LAMPU END-->
+
+                    <!-- RUANG MAKAN 1 LAMPU START -->
+                    <div class="container-contentRm">
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rm1">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RM 1</h5>
+                                <p class="card-text">Ini lampu pertama</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rm1"
+                                        onchange="saklarRm()">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardb">
+                            <h5 class="card-title">RUANG MAKAN</h5>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="toggle-rm"
+                                    onchange="saklarRm()">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RUANG MAKAN 1 LAMPU END -->
+
+                    <!-- RUANG BOBO 2 LAMPU START -->
+                    <div class="container-contentRb">
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rb1">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RB 1</h5>
+                                <p class="card-text">Ini lampu pertama</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rb1"
+                                        onchange="saklarRb()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rb2">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RB 2</h5>
+                                <p class="card-text">Ini lampu kedua</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rb2"
+                                        onchange="saklarRb()">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardb">
+                            <h5 class="card-title">RUANG BOBO</h5>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="toggle-rb"
+                                    onchange="saklarRb()">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RUANG BOBO 2 LAMPU END-->
+
+                    <!-- RUANG TAMU 4 LAMPU START -->
+                    <div class="container-contentRt">
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rt1">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RT 1</h5>
+                                <p class="card-text">Ini lampu pertama</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rt1"
+                                        onchange="saklarRt()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rt2">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RT 2</h5>
+                                <p class="card-text">Ini lampu kedua</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rt2"
+                                        onchange="saklarRt()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rt3">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RT 3</h5>
+                                <p class="card-text">Ini lampu ketiga</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rt3"
+                                        onchange="saklarRt()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 12rem;">
+                            <img src="assets/images/off.gif" class="card-img-top" alt="..." id="lampu-rt4">
+                            <div class="card-body">
+                                <h5 class="card-title">Lampu RT 4</h5>
+                                <p class="card-text">Ini lampu keempat</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="toggle-rt4"
+                                        onchange="saklarRt()">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardb">
+                            <h5 class="card-title">RUANG TAMU</h5>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="toggle-rt"
+                                    onchange="saklarRt()">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RUANG TAMU 4 LAMPU END-->
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CONTENT END -->
+
+        <!-- FOOTER START -->
+        <!-- FOOTER END -->
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="saklar.js" type="application/javascript"></script>
+</body>
+
+</html>

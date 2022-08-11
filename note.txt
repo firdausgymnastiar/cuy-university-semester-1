@@ -1,0 +1,14 @@
+function harus dipanggil
+
+const= nilai gabisa diganti
+let= nilai bisa diganti berdasarkan keadaan function
+return=hasil panggilan function
+
+CTRL+/ = KOMENTAR
+
+alt+z= wrap text
+alt+shift+f=rapihin text
+
+12=layar fullnya kalo dibootstrap
+
+id gaboleh ada yang sama
